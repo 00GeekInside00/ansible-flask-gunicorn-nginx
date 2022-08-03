@@ -9,11 +9,8 @@
   become_method: sudo
 
   vars:
-    # used for filepaths
     site_name: "myproject"
-    # used in the website's markup
     site_title: "My awesome project"
-    # used in the web server configuration file
     site_url: "myproject.com"
 
   tasks:
